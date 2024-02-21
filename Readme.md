@@ -40,7 +40,8 @@ Follow the prompts:
 
 Lastly If an error does occur while commiting its most likely something to do with your username and password
 
-```git config --global user.name "<name in github>"
+```
+git config --global user.name "<name in github>"
 git config --global user.email "<email in github>"
 
 ```
