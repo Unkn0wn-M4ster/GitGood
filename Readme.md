@@ -44,3 +44,10 @@ Lastly If an error does occur while commiting its most likely something to do wi
 git config --global user.email "<email in github>"
 
 ```
+
+Resources
+https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+https://cli.github.com/manual/
