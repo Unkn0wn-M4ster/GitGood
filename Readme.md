@@ -1,35 +1,39 @@
-## SO Git Good
+Step 1: Install Git
+For Linux:
+-> sudo apt install git-all
 
-Firstly If you are on linux mac or windows download your corresponding git version via the installation links
+For Mac and Windows:
 
-for linux its :
+Download and install Git from the official website:
 
-$ sudo apt install git-all
+    Git for Mac
+    Git for Windows
 
-for mac and windows its a installation medium via
-https://git-scm.com/download/mac
-https://git-scm.com/download/windows
+Step 2: Create a GitHub Account
 
-Once on the site do the required for installing it
+-> Visit GitHub and sign up for an account.
 
-## Secondly Make a Github Account
+Step 3: Install GitHub CLI (Optional)
 
-https://github.com/
+For Linux:
 
-## For ease of usage i would recommend using a github cli as well ie command line interface for github
+-> sudo apt install gh
 
-Linux: sudo apt install gh
-Brew : brew install gh
+For Mac (using Homebrew):
 
-One done Set up ur account with it with the help of
+brew install gh
 
--> gh auth login
-Below are some of things which show up when the above code is entered.
+Step 4: Set up GitHub CLI
 
-    What account do you want to log into? - GitHub.com (use your up and down keys and enter)
+Run the following command to set up your GitHub CLI account:
 
+bash
+
+gh auth login
+
+Follow the prompts:
+
+    What account do you want to log into? - GitHub.com (use your up and down keys and press enter)
     What is your preferred protocol for Git operations? - HTTPS
-
     Authenticate Git with your GitHub credentials? - Yes
-
     How would you like to authenticate GitHub CLI? - Login with a web browser
